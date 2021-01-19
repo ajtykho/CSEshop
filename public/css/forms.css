@@ -1,0 +1,19 @@
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%
+}
+
+.form-control input {
+    border: 1px solid rgba(22, 97, 22, 0.849);
+    font: inherit;
+    border-radius: 2px;
+}
+
+.form-control input:focus {
+    outline-color: orange;
+}
